@@ -32,6 +32,7 @@ class RoadmapSection extends StatelessWidget {
                 isLessThanStatus: isLessThanStatus,
               );
             },
+            physics: const NeverScrollableScrollPhysics(),
             shrinkWrap: true,
           ),
         ],
